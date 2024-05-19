@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laptop Selling Services</title>
+    <style>
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #111;
+    color: #fff;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2em;
+}
+.text{
+    font-family: "Anton", sans-serif;
+    font-size: 100PX;
+    margin-left: 50px;
+    margin-top: 50px;
+    width: 640px;
+    height: 220px;
+    color: white;
+  }
+  
+#head {
+    display:flex;
+    align-items: center ;
+    justify-content: space-between;
+    padding: 20px 80px ;
+    background-color:rgb(17, 10, 10);
+   /* background-color:rgba(19, 3, 3, 0.275);*/
+    box-shadow: grey;
+    z-index: 999;
+    position:sticky;
+    top:0;
+    left:0;
+}
+
+
+#nav {
+    display:flex;
+    align-items: center ;
+    justify-content: left;
+}
+#nav li{
+    list-style:none;
+    padding:0 20px;
+    font-size:16px;
+    font-weight: 600;
+}
+#nav li a{
+    text-decoration: none;
+    font-family:sans-serif;
+    color: azure;
+}
+#nav li a:hover{
+    text-decoration-line: overline;
+    color:rgb(228, 7, 228);
+    
+}
+#active{
+    text-decoration-line: overline;
+    color:rgb(228, 7, 228);
+    
+}
+
+.services {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 40px 0;
+}
+
+.service {
+    text-align: center;
+    margin-bottom: 30px;
+    max-width: 300px;
+    padding: 20px;
+    background: linear-gradient(to bottom right, #292929, #111);
+    border-radius: 10px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.service:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 12px 20px rgba(0, 0, 0, 0.5);
+}
+
+.service img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.service h2 {
+    margin-top: 10px;
+    color: #fff;
+}
+
+.service p {
+    color: #ccc;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+
+</style>
+</head>
+<body>
+            
+            
+        
+        <section id="head">
+            <a href="#" class="logo"><img src="logo.jpg" height="50px" width="50" alt="" ></a>
+            <div>
+                <ul id="nav">
+                    <li ><a href="home.html" >Home</a></li>
+                    <li><a href="login.html">Login</a></li>
+                    <li><a href="category.html">Category</a></li> 
+                    <li><a href="laptops.html">Laptops</a></li>
+                    <li id="active"><a href="services.html">Services</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div> 
+        </section>
+        <section class="services">
+            <div class="service">
+                <img src="https://images.ctfassets.net/16nm6vz43ids/7g9t8d7WaVz7BM1L9RmrCl/9f42265945660d42d58111bf3e169aab/Repair_or_replace_laptop.png" alt="Maintenance">
+                <h2>Laptop Maintenance</h2>
+                <p>We provide expert maintenance services to keep your laptop running smoothly.</p>
+            </div>
+            <div class="service">
+                <img src="https://cdn.vectorstock.com/i/1000v/47/82/laptop-repair-vector-37174782.jpg" alt="Repair">
+                <h2>Laptop Repair</h2>
+                <p>Our skilled technicians can diagnose and repair any issues with your laptop.</p>
+            </div>
+            <div class="service">
+                <img src="https://img.freepik.com/premium-photo/wrench-screwdriver-with-laptop-computer-it-service-support_220873-7800.jpg" alt="Upgrade">
+                <h2>Laptop Upgrades</h2>
+                <p>Upgrade your laptop's performance with our range of upgrade services.</p>
+            </div>
+        </section>
+        <footer>
+            <p>&copy; 2024 Laptop Shop</p>
+        </footer>
+    </body>
+    </html>
+

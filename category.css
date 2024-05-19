@@ -1,0 +1,97 @@
+.text{
+    font-family: "Anton", sans-serif;
+    font-size: 100PX;
+    margin-left: 50px;
+    margin-top: 50px;
+    width: 640px;
+    height: 220px;
+    color: white;
+  }
+  
+#head {
+    display:flex;
+    align-items: center ;
+    justify-content: space-between;
+    padding: 20px 80px ;
+    background-color:rgb(17, 10, 10);
+   /* background-color:rgba(19, 3, 3, 0.275);*/
+    box-shadow: grey;
+    z-index: 999;
+    position:sticky;
+    top:0;
+    left:0;
+}
+
+
+#nav {
+    display:flex;
+    align-items: center ;
+    justify-content: left;
+}
+#nav li{
+    list-style:none;
+    padding:0 20px;
+    font-size:16px;
+    font-weight: 600;
+}
+#nav li a{
+    text-decoration: none;
+    font-family:sans-serif;
+    color: azure;
+}
+#nav li a:hover{
+    text-decoration-line: overline;
+    color:rgb(228, 7, 228);
+    
+}
+#active{
+    text-decoration-line: overline;
+    color:rgb(228, 7, 228);
+    
+}
+
+.button{
+    background-color: black;
+    font-family: mv boli;
+}
+h2,h4{
+    color: silver;
+    font: sans-serif;
+}
+#lay1{
+    background-image:url("https://wallpapers.com/images/featured/laptop-murjp1nk4lp1idlt.jpg");
+    height: 90vh;
+    width: 86.7%;
+    background-size: cover;
+    background-position: top right 0%;
+    padding: 0px 79px;
+    align-items: center;
+    flex-direction: column;
+    display:flex;
+    align-items: flex-start;
+    justify-content: top;
+}
+
+.section-p1{
+    padding: 40px 80px ;
+    display: flex;
+}
+#hh{
+    text-align: center;
+    font-family:cursive ;
+    color: azure;
+}
+#fe-1{
+    width: auto;
+    height:auto;
+    text-align: center;
+    padding:25px 15px;
+    margin-left: 100px;
+    background-color:black;
+    color:white;
+    font-family:cursive;
+}
+#fe-1:hover
+{
+    box-shadow: 12px 12px 20px rgb(14, 14, 14) ;
+}

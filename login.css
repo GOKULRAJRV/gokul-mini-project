@@ -1,0 +1,132 @@
+.flex{
+  display: flex;
+  align-items: center;
+  margin-top: 50px;
+}
+
+#head {
+  display:flex;
+  align-items: center ;
+  justify-content: space-between;
+  padding: 20px 80px ;
+  background-color:rgb(8, 2, 2);
+  box-shadow: grey;
+  z-index: 999;
+  position:sticky;
+  top:0;
+  left:0;
+}
+
+
+ #nav {
+  display:flex;
+  align-items: center ;
+  justify-content: left ;
+}
+#nav li{
+  list-style:none;
+  padding:0 20px;
+  font-size:16px;
+  font-weight: 600;
+}
+#nav li a{
+  text-decoration: none;
+  font-family:sans-serif;
+  color: azure;
+}
+
+
+.text{
+  font-family: "Anton", sans-serif;
+  font-size: 100PX;
+  margin-left: 50px;
+  margin-top: 50px;
+  width: 640px;
+  height: 220px;
+  color: white;
+}
+
+#nav li a:hover{
+  text-decoration-line: overline;
+  color:rgb(228, 7, 228);}
+
+#active{
+  text-decoration-line: overline;
+  color:rgb(228, 7, 228);
+}
+
+.login-container {
+  color:white;  
+  background-image: linear-gradient(rgba(248, 249, 244, 0.325),rgba(245, 235, 242, 0.237));
+  margin-left: 100px;
+  margin-top: 50px;
+  /*background-color: #ffffff00;*/
+  padding: 20px;  
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(212, 25, 25, 0.1);
+  text-align: center;
+  width: 630px;
+  height: 330xpx;
+  
+}
+.login-container:hover{
+  width: 640px;
+  height: 340px;
+  background-image: linear-gradient(#ec139c00,rgba(34, 5, 198, 0));
+  box-shadow: 1px 11px 30px 20px rgba(205, 197, 206, 0.378);
+  transition:ease-in-out 0.5s;  
+  
+}
+
+.login-container h2 {
+  margin-bottom: 15px;
+}
+
+.input-group {
+
+  margin-bottom: 15px;
+  text-align: left;
+  width:600px ;
+}
+.input-group a{
+  
+  color: white;
+}
+
+
+.input-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid white;
+  border-radius: 5px;
+  
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: #19031d;    
+  border: none;
+  border-radius: 15px;
+  color: white;
+  cursor: pointer;
+  font-family:sans-serif;
+  height: 50px;
+  width: 300px;
+}
+a{
+  color: white;
+}
+
+button:hover {
+  background-color: blue;
+  
+}
+.logo{
+  border-radius: 500  px ;
+}

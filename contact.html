@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <style>
+        
+.text{
+    font-family: "Anton", sans-serif;
+    font-size: 100PX;
+    margin-left: 50px;
+    margin-top: 50px;
+    width: 640px;
+    height: 220px;
+    color: white;
+  }
+  
+#head {
+    display:flex;
+    align-items: center ;
+    justify-content: space-between;
+    padding: 20px 80px ;
+    background-color:rgb(17, 10, 10);
+   /* background-color:rgba(19, 3, 3, 0.275);*/
+    box-shadow: grey;
+    z-index: 999;
+    position:sticky;
+    top:0;
+    left:0;
+}
+
+
+#nav {
+    display:flex;
+    align-items: center ;
+    justify-content: left;
+}
+#nav li{
+    list-style:none;
+    padding:0 20px;
+    font-size:16px;
+    font-weight: 600;
+}
+#nav li a{
+    text-decoration: none;
+    font-family:sans-serif;
+    color: azure;
+}
+#nav li a:hover{
+    text-decoration-line: overline;
+    color:rgb(228, 7, 228);
+    
+}
+#active{
+    text-decoration-line: overline;
+    color:rgb(228, 7, 228);
+    
+}
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: white;
+            background-color: #f4f4f4;
+        }
+        .container {
+            max-width: 600px;
+            margin: 20px auto;
+            background-color: #ffffff32;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        h2 {
+            color: #f1efef;
+            text-align: center;
+        }
+        .form-group {
+            margin-bottom: 20px;
+        }
+        .form-group label {
+            display: block;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+        .form-group input, .form-group textarea {
+            width: 100%;
+            padding: 8px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+            box-sizing: border-box;
+        }
+        .form-group textarea {
+            height: 100px;
+        }
+        .form-group button {
+            background-color: #f906ed;
+            color: rgba(255, 255, 255, 0.989);
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        .form-group button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body style="background-color: black;">
+    <section id="head">
+        <a href="#" class="logo"><img src="logo.jpg" height="50px" width="50" alt="" ></a>
+        <div>
+            <ul id="nav">
+                <li ><a href="home.html" >Home</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="category.html">Category</a></li> 
+                <li><a href="laptops.html">Laptops</a></li>
+                <li ><a href="services.html">Services</a></li>
+                <li id="active"><a href="contact.html">Contact</a></li>
+            </ul>
+        </div> 
+    </section>
+    <br><br>
+    <div class="container">
+        <h2>Contact Us</h2>
+        <form action="#" method="post">
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+            </div>
+            <div class="form-group">
+                <button type="submit">Submit</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
